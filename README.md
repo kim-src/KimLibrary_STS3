@@ -60,12 +60,16 @@
 
 #### <p align="right">Date : January 19, 2024</p>
 
-## 🔔 KimLibrary_STS3 : version 0.3.0
-### 📌 크롬 브라우저에 구현된 웹 페이지
+## 🔔 KimLibrary_STS3 : ver. 0.3.0
+### 📌 
+  
+>   2. 고객 목록 및 도서 대여 현황 데이터베이스 구축
 
-### 📌 프로젝트 수행을 위한 프로그램
-> - Java Development Kit 11
+<br>
+
+### 📌 프로젝트 개발 환경
 > - Spring Tool Suite 3.9.17
+> - Java Development Kit 11
 > - Tomcat 9.0.52
 > - MySQL 8.0.33
 
