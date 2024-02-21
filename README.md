@@ -61,6 +61,14 @@
 #### <p align="right">Date : January 19, 2024</p>
 
 ## 🔔 KimLibrary_STS3 : ver. 0.3.0
+### 📌 프로젝트 개발 환경
+> - Spring Tool Suite 3.9.17
+> - Java Development Kit 11
+> - Tomcat 9.0.52
+> - MySQL 8.0.33
+
+<br>
+
 ### 📌 도서 대여자 목록 및 대여 현황 데이터베이스
 #### 🎯 Member_tbl : 고객 정보 관리 DB 구성
 > - cust_no : 고객의 일련번호 / ```int``` / ```Primary Key```
@@ -78,7 +86,7 @@
 
 <br>
 
-### 📌 KimLibrary_STS3 프로젝트 기획
+### 📌 프로젝트 기획
 #### 🎯 Home
 > - 도서 대여 관련 페이지 및 UI 구성
 > - "고객 등록" 버튼
@@ -104,14 +112,6 @@
 #### 🎯 "고객 대여 금액 조회" 페이지
 > - 도서 대여 이력이 있는 고객의 총 도서 대여 금액 조회 가능
 > - 고객별 총 도서 대여 금액에 따라 고객 등급 구분
-
-<br>
-
-### 📌 프로젝트 개발 환경
-> - Spring Tool Suite 3.9.17
-> - Java Development Kit 11
-> - Tomcat 9.0.52
-> - MySQL 8.0.33
 
 <br>
 
