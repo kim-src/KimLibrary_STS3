@@ -20,11 +20,13 @@
 > - v0.5.0  
 >   MVC 중 View 및 Controller 구축 (2024-01-24)  
 >   브라우저에 웹 페이지 구현 (2024-01-24)  
-> - v0.7.0
->   MVC 중 Model 구축
->   구현된 웹 페이지의  MySQL 데이터베이스 연동  
->   Hibernate 호환 문제로 인한 개발 중지
-> - v1.0.0 : AWS를 이용한 Book Rental Service Web 배포
+> - v0.7.0  
+>   MVC 중 Model 구축  
+>   구축된 Model과 데이터베이스 연동  
+>   구현된 웹 페이지의 입력 데이터와 데이터베이스 연동  
+>   (현재 Hibernate 호환 문제로 인한 개발 중지)  
+> - v1.0.0  
+>   AWS를 이용하여 KimLibrary_STS3 웹 배포
 
 <br>
 
