@@ -50,10 +50,13 @@
 #### C. 고객목록 조회 페이지 : [list.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/469a39d7-ae4d-463a-9086-a7e9eb7fa4fd" width="500px"></p>
 
-#### D. 도서대여 목록 조회 페이지 : [rentallist.jsp]()
+#### D. 고객정보 수정 페이지 : []()
+<p align="center"><img src="" width="500px"></p>
+
+#### E. 도서대여 목록 조회 페이지 : [rentallist.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/cfbd68b7-84e6-42b2-a60d-f6c821eaf2b6" width="500px"></p>
 
-#### E. 대여금액 조회 페이지 : [rentalamount.jsp]()
+#### F. 대여금액 조회 페이지 : [rentalamount.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
 
 <br>
@@ -71,10 +74,11 @@
 
 ### 📌 프로젝트 기획
 #### A. 홈페이지 : [index.jsp]()
-> - 도서관 소개 페이지 및 UI 구성
-> - "고객 등록" 버튼
-> - "고객 목록 조회/수정" 버튼
-> - "고객 대여 리스트" 버튼
+> - 도서관 소개
+> - "고객 등록" 페이지 UI 구성
+> - "고객목록 조회" 페이지 UI 구성
+> - "고객정보 수정" 페이지 UI 구성
+> - "대여목록 조회" 페이지 UI 구성
 > - "고객 대여 금액 조회" 버튼
 > - "홈으로" 버튼
 
@@ -90,15 +94,14 @@
 > - 고객 등록 정보 및 가입일자를 조회할 수 있는 페이지
 > - 고객별 고객번호에 따라 각 "고객 목록 수정" 페이지를 링크로 연결
 
-#### D. 도서대여 목록 조회 페이지 : [rentallist.jsp]()
-#### 🎯 "고객 정보 수정" 페이지
+#### D. 고객정보 수정 페이지 : []()
 > - 고객번호를 제외한 모든 항목에 대한 수정 가능
-#### 🎯 "고객 대여 리스트" 페이지
+
+#### E. 도서대여 목록 조회 페이지 : [rentallist.jsp]()
 > - 도서 대여 정보를 조회할 수 있는 페이지
 > - 고객번호, 대여번호, 도서코드, 대여금액, 대여일자 등 조회 가능
 
-#### E. 대여금액 조회 페이지 : [rentalamount.jsp]()
-#### 🎯 "고객 대여 금액 조회" 페이지
+#### F. 대여금액 조회 페이지 : [rentalamount.jsp]()
 > - 도서 대여 이력이 있는 고객의 총 도서 대여 금액 조회 가능
 > - 고객별 총 도서 대여 금액에 따라 고객 등급 구분
 
