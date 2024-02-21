@@ -1,10 +1,9 @@
 ### 🎁 My Profile
-- ### [LinkedIn Profile (Chang-Seong Kim)](https://www.linkedin.com/in/chang-seong-kim-7826142a0/)
+> ### [LinkedIn Profile (Chang-Seong Kim)](https://www.linkedin.com/in/chang-seong-kim-7826142a0/)
 
 <br>
 <br>
 
-<!-- Contents -->
 ## ✅ 프로젝트 소개
 > ### 1. [KimLibrary_STS3](https://github.com/Kim-src/KimLibrary_STS3)
 > - 개발 환경 : Spring Tool Suite 3
@@ -14,55 +13,26 @@
 
 <br>
 
-***
-
-<br>
-<br>
-<br>
-
-
-<!-- Introduction -->
-### 🎁 My Profile
-- ### [LinkedIn Profile (Chang-Seong Kim)](https://www.linkedin.com/in/chang-seong-kim-7826142a0/)
-
-<br>
-<br>
-
-# 🚀 개발 현황 : Book Rental Service Web (현재 ver. 0.5.0)
-> - v0.3.0 : 고객 목록 및 도서 대여 현황 데이터베이스 구축(MySQL을 이용한 database 및 table 생성 완료) (2024-01-19)
-> - v0.5.0 : 웹 페이지 구현(Java, JSP, xml 파일 내 코드 작성 및 Tomcat 서버 구동 완료) (2024-01-24)
-> - v0.7.0 : 구현된 웹 페이지와 MySQL 데이터베이스 연동  
-> ㄴ 수많은 에러 및 외부 라이브러리 버전 호환 문제로 인한 개발 정체
+## 🚀 개발 현황 : KimLibrary (현재 ver. 0.5.0)
+> - v0.3.0 : 
+>   프로젝트 기획 및 개발 환경 구축 (2024-01-19)  
+>   고객 목록 및 도서 대여 현황 데이터베이스 구축 (2024-01-19)  
+> - v0.5.0  
+>   MVC 중 View 및 Controller 구축 (2024-01-24)  
+>   브라우저에 웹 페이지 구현 (2024-01-24)  
+> - v0.7.0
+>   MVC 중 Model 구축
+>   구현된 웹 페이지의  MySQL 데이터베이스 연동  
+>   Hibernate 호환 문제로 인한 개발 중지
 > - v1.0.0 : AWS를 이용한 Book Rental Service Web 배포
 
 <br>
 
-***
-
-<br>
-<br>
-<br>
-
-<!-- Update Date -->
 #### <p align="right">Date : January 24, 2024</p>
 
-<!-- Title -->
-# 🚀 Book Rental Service Web (ver. 0.5.0)
-> - Web Development Project
-> - Spring MVC Framework
-> - 개발 환경 : Spring Tool Suite 3
-> - 개발 언어 : Java, HTML, CSS
-
-<br/>
-
-<!-- Contents -->
-### 🔔 도서 대여 고객 관리 프로그램
-> - Web Development Project
-
-<br/>
-
-### 🎯 구현된 웹 페이지 모습
-### A. 홈 페이지 : index.jsp 
+## 🔔 KimLibrary_STS3 : version 0.5.0
+### 📌 구현된 웹 페이지 모습
+### A. 홈페이지 : index.jsp 
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
 
 ### B. 고객등록 페이지 : register.jsp
@@ -130,15 +100,6 @@
 #### 🎯 "고객 대여 금액 조회" 페이지
 > - 도서 대여 이력이 있는 고객의 총 도서 대여 금액 조회 가능
 > - 고객별 총 도서 대여 금액에 따라 고객 등급 구분
-
-<br/>
-
-### 🎁 References
-> - [고용노동부 K-Digital 프로젝트 안내문](https://github.com/Kim-src/Book-Rental-Service/blob/main/2.%20Java%26Spring_Direction.pdf)
-> - [ChatGPT : 웹 페이지의 전반적인 코드 설계](https://chat.openai.com/)
-> - [CodeJava.net : Spring MVC framework와 MySQL DB 연동하는 방법](https://www.codejava.net/frameworks/spring/spring-mvc-spring-data-jpa-hibernate-crud-example#List)
-> - [FastCampus 남궁성 강사님의 GitHub](https://github.com/castello)
-> - [FastCampus 박매일 강사님의 GitHub](https://github.com/bitcocom)
 
 <br/>
 
