@@ -49,6 +49,8 @@
 ### E. 고객대여금액 조회 페이지 : rentalamount.jsp
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
 
+### 📌 크롬 브라우저에 구현된 웹 페이지
+
 <br>
 
 #### <p align="right">Date : January 19, 2024</p>
