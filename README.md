@@ -33,6 +33,13 @@
 #### <p align="right">Date : January 24, 2024</p>
 
 ## 🔔 KimLibrary_STS3 : ver. 0.5.0
+### 📌 구축된 View 및 Controller
+> - ### [KimLibrary_STS3_v0.5.0]()
+> - [View]() : KimLibrary_STS3/src/.../views
+> - [Controller]() : KimLibrary_STS3/src/.../java?
+
+<br>
+
 ### 📌 크롬 브라우저에 구현된 웹 페이지
 ### A. 홈페이지 : index.jsp 
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
@@ -48,13 +55,6 @@
 
 ### E. 고객대여금액 조회 페이지 : rentalamount.jsp
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
-
-<br>
-
-### 📌 구축된 View 및 Controller
-> - ### [KimLibrary_STS3_v0.5.0]()
-> - [View]() : KimLibrary_STS3/src/.../views
-> - [Controller]() : KimLibrary_STS3/src/.../java?
 
 <br>
 
