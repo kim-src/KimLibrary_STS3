@@ -41,19 +41,19 @@
 <br>
 
 ### 📌 크롬 브라우저에 구현된 웹 페이지
-### A. 홈페이지 : index.jsp 
+#### A. 홈페이지 : [index.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
 
-### B. 고객등록 페이지 : register.jsp
+### B. 고객등록 페이지 : [register.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/e991d72a-7870-440d-8b35-077c4052e616" width="500px"></p>
 
-### C. 고객목록 조회 페이지 : list.jsp
+### C. 고객목록 조회 페이지 : [list.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/469a39d7-ae4d-463a-9086-a7e9eb7fa4fd" width="500px"></p>
 
-### D. 고객대여목록 조회 페이지 : rentallist.jsp
+### D. 도서대여 목록 조회 페이지 : [rentallist.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/cfbd68b7-84e6-42b2-a60d-f6c821eaf2b6" width="500px"></p>
 
-### E. 고객대여금액 조회 페이지 : rentalamount.jsp
+### E. 대여금액 조회 페이지 : [rentalamount.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
 
 <br>
