@@ -32,7 +32,7 @@
 
 #### <p align="right">Date : January 24, 2024</p>
 
-## 🔔 KimLibrary_STS3 : version 0.5.0
+## 🔔 KimLibrary_STS3 : ver. 0.5.0
 ### 📌 크롬 브라우저에 구현된 웹 페이지
 ### A. 홈페이지 : index.jsp 
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
@@ -49,7 +49,10 @@
 ### E. 고객대여금액 조회 페이지 : rentalamount.jsp
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
 
-### 📌 크롬 브라우저에 구현된 웹 페이지
+<br>
+
+### 📌 구축된 View 및 Controller
+> ###[KimLibrary_STS3_v0.5.0]()
 
 <br>
 
@@ -64,7 +67,7 @@
 > - Tomcat 9.0.52
 > - MySQL 8.0.33
 
-<br/>
+<br>
 
 ### 📌 프로그램 구현을 위해 필요한 DataBase
 #### 🎯 Member_tbl : 고객 정보 관리 DB 구성
@@ -81,7 +84,7 @@
 > - rent_price : 도서의 대여금액 / ```int```
 > - rent_date : 도서의 대여일자 / ```datetime``` / ```now()```
 
-<br/>
+<br>
 
 ### 📌 프로그램이 구현된 웹 페이지
 #### 🎯 Home
@@ -110,10 +113,10 @@
 > - 도서 대여 이력이 있는 고객의 총 도서 대여 금액 조회 가능
 > - 고객별 총 도서 대여 금액에 따라 고객 등급 구분
 
-<br/>
+<br>
 
 ***
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
