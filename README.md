@@ -53,7 +53,8 @@
 
 ### 📌 구축된 View 및 Controller
 > - ### [KimLibrary_STS3_v0.5.0]()
-> - 
+> - [View]() : KimLibrary_STS3/src/.../views
+> - [Controller]() : KimLibrary_STS3/src/.../java?
 
 <br>
 
