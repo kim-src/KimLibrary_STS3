@@ -28,10 +28,11 @@
 > - 구현된 웹 페이지의 입력 데이터와 데이터베이스 연동  
 > - (현재 Hibernate 호환 문제로 인한 개발 중지)  
 >  
-> 🎯 v0.8.0
-> - 
+> 🎯 v0.8.0  
+> - 도서 "대여금액" 처리 로직 개발  
+>  
 > 🎯 v1.0.0  
-> - AWS를 이용하여 KimLibrary_STS3 웹 배포
+> - AWS를 이용하여 KimLibrary_STS3 웹 배포  
 
 <br>
 
@@ -142,7 +143,7 @@ CREATE TABLE Rental_tbl (
     rent_no INT AUTO_INCREMENT PRIMARY KEY, # 대여번호(기본키)
     cust_no INT, # 고객번호(외래키)
     book_code VARCHAR(20), # 도서번호(외래키)
-    rent_days INT DEFAULT 0, # 대여기간
+    rent_days INT DEFAULT 0, # 대여일수
     rent_price INT, # 대여금액
     rent_date DATETIME DEFAULT CURRENT_TIMESTAMP, # 대여일자
     FOREIGN KEY (cust_no) REFERENCES Member_tbl(cust_no),
