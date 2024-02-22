@@ -31,7 +31,7 @@
 >  
 > 🎯 v0.8.0  
 > - 도서 "대여금액" 처리 로직 개발  
-> - Controller 구분(CustomerController, RentalController, BookController)  
+> - Controller 세분화 : CustomerController, RentalController, BookController  
 >  
 > 🎯 v1.0.0  
 > - AWS를 이용하여 KimLibrary_STS3 웹 배포  
