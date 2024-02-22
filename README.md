@@ -38,9 +38,8 @@
 
 #### <p align="right">Date : January 24, 2024</p>
 
-## 🔔 KimLibrary_STS3 : ver. 0.4.0
+## 🔔 [KimLibrary_STS3 : ver. 0.4.0]()
 ### 📌 구축된 View 및 Controller
-> - ### [KimLibrary_STS3_v0.4.0]()
 > - [View]() : KimLibrary_STS3/src/.../views
 > - [Controller]() : KimLibrary_STS3/src/.../java?
 
@@ -69,7 +68,7 @@
 
 #### <p align="right">Date : January 19, 2024</p>
 
-## 🔔 KimLibrary_STS3 : ver. 0.3.0
+## 🔔 [KimLibrary_STS3 : ver. 0.2.0]()
 ### 📌 프로젝트 개발 환경
 > - Spring Tool Suite 3.9.17
 > - Java Development Kit 11
