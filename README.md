@@ -15,8 +15,8 @@
 
 ## 🚀 개발 현황 : KimLibrary (현재 ver. 0.5.0)
 > - v0.3.0 :  
->   A. 프로젝트 기획 및 개발 환경 구축 (2024-01-19)  
->   B. 고객 목록 및 도서 대여 현황 데이터베이스 구축 (2024-01-19)  
+>   A. 프로젝트 기획 및 개발 환경 구축 (2024-01-17)  
+>   B. "고객목록", "도서정보", "도서대여 현황" 데이터베이스 구축 (2024-01-19)  
 > - v0.5.0  
 >   A. MVC 중 View 및 Controller 구축 (2024-01-24)  
 >   B. 브라우저에 웹 페이지 구현 (2024-01-24)  
@@ -40,7 +40,7 @@
 
 <br>
 
-### 📌 크롬 브라우저에 구현된 웹 페이지
+### 📌 브라우저에 구현된 웹 페이지
 #### A. 홈페이지 : [index.jsp]()
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
 
@@ -111,27 +111,49 @@
 #### F. 대여금액 조회 페이지 : [rentalamount.jsp]()
 > - 도서 대여자의 총 대여 금액 표시
 > - "고객번호" 및 "고객이름"은 데이터베이스(Member_tbl)에 저장된 내용
-> -
-> - 도서 대여자의 "고객등급"
-
-> - 고객별 총 도서 대여 금액에 따라 고객 등급 구분
+> - "대여금액 총계"는 "대여금액"에 누적 대여 횟수를 곱한 값
+> - "고객등급"은 "대여금액 총계"에 따라 차등 부여
+> - "대여금액 총계" 5,000원 미만은 "Level" 1, 5,000원 이상부터 5,000원 단위 당 "Level" 1 증가
 
 <br>
 
-### 📌 도서 대여자 목록 및 대여 현황 데이터베이스
-#### 🎯 Member_tbl : 고객 정보 관리 DB 구성
-> - cust_no : 고객의 일련번호 / ```int``` / ```Primary Key```
-> - cust_name : 고객의 이름 / ```varchar(20)```
-> - phone : 고객의 전화번호 / ```varchar(20)```
-> - join_date : 고객의 가입일자 / ```datetime``` / ```now()```
-> - cust_email : 고객의 이메일 / ```varchar(50)```
-> - grade : 고객의 등급 / ```varchar(20)```
-#### 🎯 Rent_tbl : 고객 정보 및 도서 대여 정보 관리
-> - cust_no : 고객의 일련번호 / ```int```
-> - rent_no : 도서의 대여번호 / ```int``` / ```Primary Key```
-> - book_code : 도서의 일련번호 / ```varchar(20)```
-> - rent_price : 도서의 대여금액 / ```int```
-> - rent_date : 도서의 대여일자 / ```datetime``` / ```now()```
+### 📌 데이터베이스 구축
+#### 🎯 Member_tbl : 고객 정보 DB
+``` sql
+# Table 생성
+CREATE TABLE Member_tbl (
+    cust_no INT AUTO_INCREMENT PRIMARY KEY, # 고객번호(기본키)
+    cust_name VARCHAR(20) NOT NULL, # 고객이름
+    phone VARCHAR(20) NOT NULL, # 전화번호
+    join_date DATETIME DEFAULT CURRENT_TIMESTAMP, # 가입일자
+    cust_email VARCHAR(50) NOT NULL, # 이메일
+    grade VARCHAR(20) DEFAULT 'Level 1' # 고객등급
+);
+```
+
+#### 🎯 Rental_tbl : 대여 정보 DB
+``` sql
+CREATE TABLE Rental_tbl (
+    rent_no INT AUTO_INCREMENT PRIMARY KEY, # 대여번호(기본키)
+    cust_no INT, # 고객번호(외래키)
+    book_code VARCHAR(20), # 도서번호(외래키)
+    (help)rent_days INT DEFAULT 0, # 일일대여
+    (help)rent_price INT, # 대여금액
+    rent_date DATETIME DEFAULT CURRENT_TIMESTAMP, # 대여일자
+    FOREIGN KEY (cust_no) REFERENCES Member_tbl(cust_no),
+    FOREIGN KEY (book_code) REFERENCES Book_tbl(book_code)
+);
+```
+
+#### 🎯 Rental_tbl : 도서 정보 DB
+``` sql
+CREATE TABLE Book_tbl (
+    book_code VARCHAR(20) PRIMARY KEY, # 도서번호(기본키)
+    book_name VARCHAR(100) NOT NULL, # 도서이름
+    book_price INT NOT NULL, # 도서금액
+    (help)rent_day INT NOT NULL, # 대여금액
+);
+```
 
 <br>
 
