@@ -118,7 +118,7 @@
 <br>
 
 ### 📌 데이터베이스 구축
-#### 🎯 Member_tbl : 고객 정보 DB
+#### A. Member_tbl : 고객 정보 DB
 ``` sql
 # Table 생성
 CREATE TABLE Member_tbl (
@@ -131,27 +131,27 @@ CREATE TABLE Member_tbl (
 );
 ```
 
-#### 🎯 Rental_tbl : 대여 정보 DB
+#### B. Rental_tbl : 대여 정보 DB
 ``` sql
 CREATE TABLE Rental_tbl (
     rent_no INT AUTO_INCREMENT PRIMARY KEY, # 대여번호(기본키)
     cust_no INT, # 고객번호(외래키)
     book_code VARCHAR(20), # 도서번호(외래키)
-    (help)rent_days INT DEFAULT 0, # 일일대여
-    (help)rent_price INT, # 대여금액
+    rent_days INT DEFAULT 0, # 대여기간
+    rent_price INT, # 대여금액
     rent_date DATETIME DEFAULT CURRENT_TIMESTAMP, # 대여일자
     FOREIGN KEY (cust_no) REFERENCES Member_tbl(cust_no),
     FOREIGN KEY (book_code) REFERENCES Book_tbl(book_code)
 );
 ```
 
-#### 🎯 Rental_tbl : 도서 정보 DB
+#### C. Rental_tbl : 도서 정보 DB
 ``` sql
 CREATE TABLE Book_tbl (
     book_code VARCHAR(20) PRIMARY KEY, # 도서번호(기본키)
     book_name VARCHAR(100) NOT NULL, # 도서이름
     book_price INT NOT NULL, # 도서금액
-    (help)rent_day INT NOT NULL, # 대여금액
+    rent_day INT NOT NULL, # 대여금액
 );
 ```
 
