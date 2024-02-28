@@ -42,35 +42,35 @@
 
 ## 🔔 [KimLibrary_STS3 : ver. 0.4.0]()
 ### 📌 구축된 View 및 Controller
-> - [View]() : KimLibrary_STS3/src/.../views
-> - [Controller]() : KimLibrary_STS3/src/.../java?
+> - <a href="https://github.com/Kim-src/KimLibrary_STS3/tree/main/v0.4.0/src/main/webapp/WEB-INF/views">View : KimLibrary_STS3/.../views</a>
+> - <a href="https://github.com/Kim-src/KimLibrary_STS3/tree/main/v0.4.0/src/main/java">Controller : KimLibrary_STS3/.../java</a>
 
 <br>
 
 ### 📌 브라우저에 구현된 웹 페이지
-#### A. 홈페이지 : [index.jsp]()
+#### A. 홈페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/index.jsp">index.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
 
-#### B. 고객정보 등록 페이지 : [register.jsp]()
+#### B. 고객정보 등록 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerRegistration.jsp">CustomerRegistration.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/e991d72a-7870-440d-8b35-077c4052e616" width="500px"></p>
 
-#### C. 고객목록 조회 페이지 : [list.jsp]()
+#### C. 고객목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerList.jsp">CustomerList.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/469a39d7-ae4d-463a-9086-a7e9eb7fa4fd" width="500px"></p>
 
 #### D. 고객정보 수정 페이지 : []()
 <p align="center"><img src="" width="500px"></p>
 
-#### E. 대여목록 조회 페이지 : [rentallist.jsp]()
+#### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/cfbd68b7-84e6-42b2-a60d-f6c821eaf2b6" width="500px"></p>
 
-#### F. 대여금액 조회 페이지 : [rentalamount.jsp]()
+#### F. 대여금액 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalCost.jsp">RentalCost.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
 
 <br>
 
 #### <p align="right">Date : January 19, 2024</p>
 
-## 🔔 [KimLibrary_STS3 : ver. 0.2.0]()
+## 🔔 <a href="https://github.com/Kim-src/KimLibrary_STS3/tree/main/v0.2.0">KimLibrary_STS3 : ver. 0.2.0</a>
 ### 📌 프로젝트 개발 환경
 > - Spring Tool Suite 3.9.17
 > - Java Development Kit 11
@@ -80,7 +80,7 @@
 <br>
 
 ### 📌 프로젝트 기획
-#### A. 홈페이지 : [index.jsp]()
+#### A. 홈페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/index.jsp">index.jsp</a>
 > - 도서관 소개
 > - "고객정보 등록" 페이지 접근을 위한 UI 구성
 > - "고객목록 조회" 페이지 접근을 위한 UI 구성
@@ -89,24 +89,24 @@
 > - "대여금액 조회" 페이지 접근을 위한 UI 구성
 > - "홈페이지" 접근을 위한 UI 구성
 
-#### B. 고객정보 등록 페이지 : [register.jsp]()
+#### B. 고객정보 등록 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerRegistration.jsp">CustomerRegistration.jsp</a>
 > - 도서 대여자 정보 입력을 위한 관리자 필드 구성
 > - 입력된 고객 정보는 데이터베이스(Member_tbl)에 삽입
 > - "고객이름" 입력을 위한 필드 구성
 > - "전화번호" 입력을 위한 필드 구성
 > - "이메일" 입력을 위한 필드 구성
 
-#### C. 고객목록 조회 페이지 : [list.jsp]()
+#### C. 고객목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerList.jsp">CustomerList.jsp</a>
 > - 데이터베이스에 저장된 고객 정보 표시
 > - "고객번호"는 "1000"부터 데이터베이스 저장 순서대로 부여
 > - "고객번호"에 고객정보 수정 페이지 접근을 위한 UI 구성
 > - "가입일자"는 데이터베이스 저장 일자로 부여
 > - "고객등급"은 도서 대여 금액 총계에 따라 차등 부여
 
-#### D. 고객정보 수정 페이지 : []()
+#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3"></a>
 > - 데이터베이스에 저장된 고객 정보 수정 필드 구성
 
-#### E. 대여목록 조회 페이지 : [rentallist.jsp]()
+#### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
 > - 도서 대여자의 대여 정보 표시
 > - 대여 정보는 데이터베이스(Rental_tbl)에 저장된 내용
 > - "대여번호"는 도서 대여 발생년도의 대여 순서대로 부여("20240001"부터 부여)
@@ -115,7 +115,7 @@
 > - "반납일자"는 도서 수령 발생일
 > - "대여일자" 및 "반납일자"는 관리자가 조회 페이지에서 날짜 선택기를 이용해 입력 가능
 
-#### F. 대여금액 조회 페이지 : [rentalamount.jsp]()
+#### F. 대여금액 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalCost.jsp">RentalCost.jsp</a>
 > - 도서 대여자의 총 대여 금액 표시
 > - "고객번호" 및 "고객이름"은 데이터베이스(Member_tbl)에 저장된 내용
 > - "대여금액 총계"는 "대여금액"에 누적 대여 횟수를 곱한 값
