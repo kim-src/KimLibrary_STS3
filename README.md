@@ -57,7 +57,7 @@
 #### C. 고객목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerList.jsp">CustomerList.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/469a39d7-ae4d-463a-9086-a7e9eb7fa4fd" width="500px"></p>
 
-#### D. 고객정보 수정 페이지 : []()
+#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerInfoEdit.jsp"></a>
 <p align="center"><img src="" width="500px"></p>
 
 #### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
