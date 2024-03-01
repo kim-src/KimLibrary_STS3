@@ -1,4 +1,4 @@
-package com.fastcampus.homework.controller;
+package com.github.KimLibrary_STS3;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
 public class HomeController {
-    
-    @RequestMapping(value = "/")
+
+	@RequestMapping(value = "/")
     public String Home() {
         return "redirect:/index";
     }
@@ -28,24 +28,29 @@ public class HomeController {
         return "index";
     }
     
-    @RequestMapping("/register")
-    public String showRegisterPage() {
-    	return "register";
+    @RequestMapping("/CustomerRegistration")
+    public String showCustomerRegistrationPage() {
+    	return "CustomerRegistration";
 	}
     
-    @RequestMapping("/list")
-    public String showListPage() {
-    	return "list";
+    @RequestMapping("/CustomerList")
+    public String showCustomerListPage() {
+    	return "CustomerList";
 	}
     
-    @RequestMapping("/rentallist")
-    public String showRentallistPage() {
-    	return "rentallist";
+    @RequestMapping("/CustomerInfoEdit")
+    public String showCustomerInfoEditPage() {
+    	return "CustomerInfoEdit";
 	}
     
-    @RequestMapping("/rentalamount")
-    public String showRentalamountPage() {
-    	return "rentalamount";
+    @RequestMapping("/RentalHistory")
+    public String showRentalHistorytPage() {
+    	return "RentalHistory";
+	}
+    
+    @RequestMapping("/RentalCost")
+    public String showRentalCostPage() {
+    	return "RentalCost";
 	}
         
 }
