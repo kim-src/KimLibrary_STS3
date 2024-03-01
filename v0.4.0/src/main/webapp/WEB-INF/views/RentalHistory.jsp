@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>book rental service</title>
+    <title>Final Project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         
     <style>
@@ -33,26 +33,110 @@
 </head>
 <body>
     <header>
-        <h3>도서 고객 및 대여 관리 프로그램 ver 1.0</h3>
+        <h3>KimLibrary_STS3 v0.4.0</h3>
     </header>
     
     <nav>
 	    <ul class="nav">
-	        <li class="nav-item"><a href="http://localhost:8090/homework/register">고객등록</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/list">고객목록조회/수정</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentallist">고객대여리스트</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentalamount">고객대여금액조회</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/index">홈으로</a></li>
-	    </ul>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerRegistration">고객정보 등록</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerList">고객목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerInfoEdit">고객정보 수정</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalHistory">대여목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalCost">대여금액 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/index">홈페이지</a></li>
+        </ul>
 	</nav>
     
     <section>
-        <h4>제목</h4>
-        
+        <h4>고객 대여 리스트 페이지</h4>
+        <br/>
+        <table class="table">
+	        <thead>
+	            <tr>
+	                <th>고객번호</th>
+	                <th>대여번호</th>
+	                <th>도서코드</th>
+	                <th>대여금액</th>
+	                <th>대여일자</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            <tr>
+	                <td>1001</td>
+	                <td>20230001</td>
+	                <td>A001</td>
+	                <td>2300</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1001</td>
+	                <td>20230002</td>
+	                <td>A002</td>
+	                <td>1300</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1001</td>
+	                <td>20230003</td>
+	                <td>A003</td>
+	                <td>2100</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1002</td>
+	                <td>20230004</td>
+	                <td>A004</td>
+	                <td>1600</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1002</td>
+	                <td>20230005</td>
+	                <td>A005</td>
+	                <td>1800</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1003</td>
+	                <td>20230006</td>
+	                <td>A006</td>
+	                <td>1500</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1004</td>
+	                <td>20230007</td>
+	                <td>A007</td>
+	                <td>2000</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1004</td>
+	                <td>20230008</td>
+	                <td>A008</td>
+	                <td>2300</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1004</td>
+	                <td>20230009</td>
+	                <td>A009</td>
+	                <td>1500</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	            <tr>
+	                <td>1004</td>
+	                <td>20230010</td>
+	                <td>A010</td>
+	                <td>2300</td>
+	                <td>2023-05-22</td>
+	            </tr>
+	        </tbody>
+	    </table>
     </section>
     
     <footer>
-        <p>나도 할 수 있는 Java & Spring 웹 개발 종합반(김창성)</p>
+        <p>https://github.com/Kim-src/KimLibrary_STS3</p>
     </footer>
 
     <!-- Bootstrap JS 추가 -->
