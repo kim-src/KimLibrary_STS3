@@ -50,22 +50,22 @@
 
 ### 📌 브라우저에 구현된 웹 페이지
 #### A. 홈페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/index.jsp">index.jsp</a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/50e489f9-aa51-44b6-9369-f3a826894c86" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/ed562fae-f703-49b1-bbff-23bf1ef32b2d" width="500px"></p>
 
 #### B. 고객정보 등록 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerRegistration.jsp">CustomerRegistration.jsp</a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/bb5cd558-0560-4b79-ba82-a9065775fb20" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/4d6ed219-4f8e-4ff5-a262-e62c666c16d5" width="500px"></p>
 
 #### C. 고객목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerList.jsp">CustomerList.jsp</a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/469a39d7-ae4d-463a-9086-a7e9eb7fa4fd" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/229f33a0-bfe6-4f6c-afb1-fd064498cec5" width="500px"></p>
 
 #### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerInfoEdit.jsp"></a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/14ef87e0-16c4-4118-8434-008baea1af94" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/43dd3c3d-d73a-4378-bfd9-29e30f06ba0f" width="500px"></p>
 
 #### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/cfbd68b7-84e6-42b2-a60d-f6c821eaf2b6" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/c4c0bf64-49c3-419a-9677-01c33e91d499" width="500px"></p>
 
 #### F. 대여금액 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalCost.jsp">RentalCost.jsp</a>
-<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/8bde634f-8bcf-4cf1-abb3-101b27be4658" width="500px"></p>
+<p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/d78535d7-2b5a-47e2-9de7-b49c75438b10" width="500px"></p>
 
 <br>
 
