@@ -37,17 +37,17 @@
 </head>
 <body>
     <header>
-        <h3>도서 고객 및 대여 관리 프로그램 ver 0.4.0</h3>
+        <h3>KimLibrary_STS3 v0.4.0</h3>
     </header>
     
     <nav>
         <ul class="nav">
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/CustomerRegistration">고객정보 등록</a></li>
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/CustomerList">고객목록 조회</a></li>
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/CustomerInfoEdit">고객정보 수정</a></li>
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/RentalHistory">대여목록 조회</a></li>
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/RentalCost">대여금액 조회</a></li>
-            <li class="nav-item"><a href="http://localhost:8090/KimLibrary_STS3/index">홈페이지</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerRegistration">고객정보 등록</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerList">고객목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerInfoEdit">고객정보 수정</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalHistory">대여목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalCost">대여금액 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/index">홈페이지</a></li>
         </ul>
     </nav>
     
@@ -58,11 +58,11 @@
                 <table class="table table-bordered">
                     <tr>
                         <th>고객번호</th>
-                        <td><input type="text" name="cust_no" value="100001" readonly /></td>
+                        <td><input type="text" name="cust_no" value="1001" readonly /></td>
                     </tr>
                     <tr>
                         <th>고객이름</th>
-                        <td><input type="text" name="cust_name" value="박명일" /></td>
+                        <td><input type="text" name="cust_name" value="강서울" /></td>
                     </tr>
                     <tr>
                         <th>전화번호</th>
@@ -70,7 +70,7 @@
                     </tr>
                     <tr>
                         <th>이메일</th>
-                        <td><input type="email" name="email" value="bit01@naver.com" /></td>
+                        <td><input type="email" name="email" value="kim@naver.com" /></td>
                     </tr>
                     <tr>
                         <th>고객등급(P,G,S)</th>
@@ -92,7 +92,7 @@
     </section>
     
     <footer>
-        <p>나도 할 수 있는 Java & Spring 웹 개발 종합반(김창성)</p>
+        <p>https://github.com/Kim-src/KimLibrary_STS3</p>
     </footer>
 
     <!-- Bootstrap JS 추가 -->
