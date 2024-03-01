@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>book rental service</title>
+    <title>Final Project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         
     <style>
@@ -33,26 +33,63 @@
 </head>
 <body>
     <header>
-        <h3>도서 고객 및 대여 관리 프로그램 ver 1.0</h3>
+        <h3>KimLibrary_STS3 v0.4.0</h3>
     </header>
     
     <nav>
 	    <ul class="nav">
-	        <li class="nav-item"><a href="http://localhost:8090/homework/register">고객등록</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/list">고객목록조회/수정</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentallist">고객대여리스트</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentalamount">고객대여금액조회</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/index">홈으로</a></li>
-	    </ul>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerRegistration">고객정보 등록</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerList">고객목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerInfoEdit">고객정보 수정</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalHistory">대여목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalCost">대여금액 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/index">홈페이지</a></li>
+        </ul>
 	</nav>
     
     <section>
-        <h4>제목</h4>
-        
+        <h4>고객 대여 금액 조회 페이지</h4>
+	    <br/>
+	    <table class="table">
+	        <thead>
+	            <tr>
+	                <th>고객번호</th>
+	                <th>고객이름</th>
+	                <th>고객등급</th>
+	                <th>총대여금액</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            <tr>
+	                <td>1004</td>
+	                <td>나소원</td>
+	                <td>Platinum</td>
+	                <td>8100</td>
+	            </tr>
+	            <tr>
+	                <td>1001</td>
+	                <td>김서울</td>
+	                <td>Platinum</td>
+	                <td>5700</td>
+	            </tr>
+	            <tr>
+	                <td>1002</td>
+	                <td>이믿음</td>
+	                <td>Gold</td>
+	                <td>3400</td>
+	            </tr>
+	            <tr>
+	                <td>1003</td>
+	                <td>박축복</td>
+	                <td>Silver</td>
+	                <td>1500</td>
+	            </tr>
+	        </tbody>
+	    </table>
     </section>
     
     <footer>
-        <p>나도 할 수 있는 Java & Spring 웹 개발 종합반(김창성)</p>
+        <p>https://github.com/Kim-src/KimLibrary_STS3</p>
     </footer>
 
     <!-- Bootstrap JS 추가 -->
