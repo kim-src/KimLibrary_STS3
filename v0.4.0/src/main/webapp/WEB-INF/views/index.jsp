@@ -33,36 +33,31 @@
 </head>
 <body>
     <header>
-        <h3>도서 고객 및 대여 관리 프로그램 ver 1.0</h3>
+        <h3>KimLibrary_STS3 v0.4.0</h3>
     </header>
     
     <nav>
 	    <ul class="nav">
-	        <li class="nav-item"><a href="http://localhost:8090/homework/register">고객등록</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/list">고객목록조회/수정</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentallist">고객대여리스트</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentalamount">고객대여금액조회</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/index">홈으로</a></li>
-	    </ul>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerRegistration">고객정보 등록</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerList">고객목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerInfoEdit">고객정보 수정</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalHistory">대여목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalCost">대여금액 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/index">홈페이지</a></li>
+        </ul>
 	</nav>
     
     <section>
-        <h4>도서 고객 및 대여관리 프로그램</h4>
+        <h4>KimLibrary_STS3</h4>
         <br/>
-        <p>프로그램 작성순서</p>
-        <ol>
-            <li>고객정보 테이블을 생성한다.</li>
-            <li>대여정보 테이블을 생성한다.</li>
-            <li>고객정보, 대여정보 테이블에 제시된 데이터를 생성한다.</li>
-            <li>고객정보 입력 화면 프로그램을 작성한다.</li>
-            <li>고객정보 조회 프로그램을 작성한다.</li>
-            <li>고객대여리스트를 조회하는 프로그램을 작성한다.</li>
-            <li>고객별 대여금액을 조회하는 프로그램을 작성한다.</li>
-        </ol>
+        <div align="center">
+	        <img src="https://github.com/Kim-src/Images/assets/150884526/cd8fa7c6-efc2-4b87-a20b-594ccd4f87e5" width="500px" alt="figure">
+	        <p>Kim의 도서관</p>
+        </div>
     </section>
     
     <footer>
-        <p>나도 할 수 있는 Java & Spring 웹 개발 종합반(김창성)</p>
+        <p>https://github.com/Kim-src/KimLibrary_STS3</p>
     </footer>
 
     <!-- Bootstrap JS 추가 -->
