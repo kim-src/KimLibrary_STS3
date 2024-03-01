@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>book rental service</title>
+    <title>Final Project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         
     <style>
@@ -33,26 +33,102 @@
 </head>
 <body>
     <header>
-        <h3>도서 고객 및 대여 관리 프로그램 ver 1.0</h3>
+        <h3>KimLibrary_STS3 v0.4.0</h3>
     </header>
     
     <nav>
 	    <ul class="nav">
-	        <li class="nav-item"><a href="http://localhost:8090/homework/register">고객등록</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/list">고객목록조회/수정</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentallist">고객대여리스트</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/rentalamount">고객대여금액조회</a></li>
-	        <li class="nav-item"><a href="http://localhost:8090/homework/index">홈으로</a></li>
-	    </ul>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerRegistration">고객정보 등록</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerList">고객목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/CustomerInfoEdit">고객정보 수정</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalHistory">대여목록 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/RentalCost">대여금액 조회</a></li>
+            <li class="nav-item"><a href="http://localhost:8080/ch2/index">홈페이지</a></li>
+        </ul>
 	</nav>
     
     <section>
-        <h4>제목</h4>
-        
+        <h4>고객 목록 조회 및 수정 페이지</h4>
+        <br/>
+        <table class="table">
+	        <thead>
+	            <tr>
+	                <th>고객번호</th>
+	                <th>고객이름</th>
+	                <th>전화번호</th>
+	                <th>가입일자</th>
+	                <th>이메일</th>
+	                <th>고객등급</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            <tr>
+	                <td>1001</td>
+	                <td>김서울</td>
+	                <td>010-1111-1111</td>
+	                <td>2023-04-11</td>
+	                <td>kim@naver.com</td>
+	                <td>Platinum</td>
+	            </tr>
+	            <tr>
+	                <td>1002</td>
+	                <td>이믿음</td>
+	                <td>010-1111-1112</td>
+	                <td>2023-04-12</td>
+	                <td>lee@naver.com</td>
+	                <td>Gold</td>
+	            </tr>
+	            <tr>
+	                <td>1003</td>
+	                <td>박축복</td>
+	                <td>010-1111-1113</td>
+	                <td>2023-04-13</td>
+	                <td>park@naver.com</td>
+	                <td>Silver</td>
+	            </tr>
+	            <tr>
+	                <td>1004</td>
+	                <td>나소원</td>
+	                <td>010-1111-1114</td>
+	                <td>2023-04-14</td>
+	                <td>na@naver.com</td>
+	                <td>Platinum</td>
+	            </tr>
+	            <tr>
+	                <td>1005</td>
+	                <td>김행복</td>
+	                <td>010-1111-1115</td>
+	                <td>2023-04-15</td>
+	                <td>happy@naver.com</td>
+	                <td>Gold</td>
+	            </tr>
+	            <tr>
+	                <td>1006</td>
+	                <td>조은혜</td>
+	                <td>010-1111-1116</td>
+	                <td>2023-04-16</td>
+	                <td>jo@naver.com</td>
+	                <td>Silver</td>
+	            </tr>
+	        </tbody>
+	        <tbody>
+	            <c:forEach var="finalproject" items="${customerList}">
+	                <tr>
+	                    <td>${bookrentalservice.cust_no}</td>
+	                    <td>${bookrentalservice.cust_name}</td>
+	                    <td>${bookrentalservice.phone}</td>
+	                    <td>${bookrentalservice.join_date}</td>
+	                    <td>${bookrentalservice.cust_email}</td>
+	                    <td>${bookrentalservice.grade}</td>
+	                </tr>
+	            </c:forEach>
+	        </tbody>
+	        
+	    </table>
     </section>
     
     <footer>
-        <p>나도 할 수 있는 Java & Spring 웹 개발 종합반(김창성)</p>
+        <p>https://github.com/Kim-src/KimLibrary_STS3</p>
     </footer>
 
     <!-- Bootstrap JS 추가 -->
