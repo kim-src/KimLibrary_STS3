@@ -58,7 +58,7 @@
 #### C. 고객목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerList.jsp">CustomerList.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/229f33a0-bfe6-4f6c-afb1-fd064498cec5" width="500px"></p>
 
-#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerInfoEdit.jsp"></a>
+#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerInfoEdit.jsp">CustomerInfoEdit.jsp</a>
 <p align="center"><img src="https://github.com/Kim-src/Images/assets/150884526/43dd3c3d-d73a-4378-bfd9-29e30f06ba0f" width="500px"></p>
 
 #### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
@@ -104,7 +104,7 @@
 > - "가입일자"는 데이터베이스 저장 일자로 부여
 > - "고객등급"은 도서 대여 금액 총계에 따라 차등 부여
 
-#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3"></a>
+#### D. 고객정보 수정 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/CustomerInfoEdit.jsp">CustomerInfoEdit.jsp</a>
 > - 데이터베이스에 저장된 고객 정보 수정 필드 구성
 
 #### E. 대여목록 조회 페이지 : <a href="https://github.com/Kim-src/KimLibrary_STS3/blob/main/v0.4.0/src/main/webapp/WEB-INF/views/RentalHistory.jsp">RentalHistory.jsp</a>
